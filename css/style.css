@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700|Libre+Baskerville:700');
+
+h1 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+html, body, header .container-fluid {
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	height: 100%;
+}
+
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+#contact ul {
+	text-align: center;
+}
+
+#contact ul li {
+	list-style: none;
+	display: inline;
+}
+
+#projects {
+  background: linear-gradient(
+  rgba(0, 0, 0, 0.3),
+  rgba(0, 0, 0, 0.3)
+  ),
+  url(https://cloud.githubusercontent.com/assets/15892944/13803396/83259278-eb01-11e5-91e1-a3b12cf65b55.jpg) fixed no-repeat center center;
+  color: white;
+}
+
+.profile_pic {
+	height: 150px;
+}
+
+.btn {
+	border-radius: 0;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-inverse a {
+	border-right: 1px solid white;
+}
+
+.cover {
+	height: 100%;
+	background: 
+		linear-gradient(
+			rgba(0,0,0,0.5),
+			rgba(0,0,0,0.5)
+		),url('../images/pc.jpg') top left no-repeat;
+	background-size: cover;
+	display: table;
+	width: 100%;
+	padding: 0 20%;
+}
+
+.cover-text {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cover-text h1 {
+	font-size: 70px;
+}
+
+.cover .down .fa-chevron-down {
+	display: table-cell;
+	vertical-align: bottom;
+}
+
+.jumbotron {
+	margin: 0;
+}
+
+.affix {
+	top: 0;
+	width: 100%;
+}
+
+.skill_one {
+	display:none;
+}
+
+#about {
+	padding: 40px;
+}
+
+.black_box {
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.contact {
+	color: #483c33;
+}
+
+@media (max-width: 586px) {
+	.cover-text h1 {
+		font-size: 40px;
+	}
+}
