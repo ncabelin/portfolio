@@ -64,63 +64,55 @@
 
 <section id="about">
 	<div class="container">
-	  <h1 class="text-center">About Me</h1>
-	  <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I graduated with a bachelor degree in Economics and then went into the field of Nursing, but found myself feeling unfulfilled and longing for an outlet for technical creativity and problem solving. I found this in software development, where the whole gamut of designing, building projects and fixing bugs proved irresistible to me.</p>
-	  <hr>
-	  <p class="lead text-center">While my specialization is web design and development I am currently foraying into developing natively for mobile devices. Check out my projects below.</p>
+		<div class="row">
+			<div class="col-md-12">
+			  <h1 class="text-center">About Me</h1>
+			  <p class="lead">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I graduated with a bachelor degree in Economics and went into the field of Nursing but found myself feeling unfulfilled and longing for an outlet for my technical creativity and problem solving. I then stumbled upon software development, particularly web technology, where the whole gamut of designing, building projects and fixing bugs proved irresistible to me. The rest as they say, is history.</p>
+			  <hr class="special">
+			  <p class="lead text-center">Throughout the years I've learned how to find the right software solutions for a customer's needs. While my specialization is web design and development, I am currently foraying into developing natively for mobile devices. Otherwise, the bulk of my expertise is in web solutions. It's a constant cycle of learning and updating skills, as fast and as exciting as the technology. Check out my projects below.</p>
+	  	</div>
+	  </div>
 	</div>
 </section>
 
-<section id="projects">
+<section id="project_feat">
 	<div class="container">
 		<div class="row">
-			<h1>Featured Projects</h1>
-				<!-- <img src="https://cloud.githubusercontent.com/assets/15892944/18023119/f53124da-6ba9-11e6-9a4c-cf9feaf7de4c.png"/> -->
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
-
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
-
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
-
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
-
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
-
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
-
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
-
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
-
-			Mental health services locator currently used by the San Fernando Valley Community Mental Health Center Inc. for locating the nearest facilities for their clients while on the field by device GPS or zipcode.<br><br>Uses Google Maps API served through a NodeJS Backend Service API, Firebase Backend for Authentication &amp; Database and AngularJS front-end.
+			<div class="col-md-12">
+				<h1 class="text-center">Featured Projects</h1><br><br>
+			</div>
+		</div>
+		<div id="projects">
+		</div>
 	</div>
 </section>
 
 <section id="contact">
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <ul>
-        <li>
-          <a class="contact" href="mailto:ncabelin@potentum.com"><i class="fa fa-envelope fa-3x"></i></a>Email
-        </li>
-        <li>
-          <a class="contact" href=
-          "https://www.linkedin.com/in/neptune-michael-cabelin-637600b0"><i class="fa fa-linkedin fa-3x"></i></a>LinkedIn
-        </li>
-        <li>
-          <a class="contact" href="http://www.github.com/ncabelin"><i class=
-          "fa fa-github fa-3x"></i></a><span>Github</span>
-        </li>
-      </ul>
-    </div>
+	<div class="container">
+	  <div class="row">
+	    <div class="col-md-12">
+	      <ul>
+	        <li>
+	          <a class="contact" href="mailto:ncabelin@potentum.com"><i class="fa fa-envelope fa-3x"></i></a>Email
+	        </li>
+	        <li>
+	          <a class="contact" href=
+	          "https://www.linkedin.com/in/neptune-michael-cabelin-637600b0"><i class="fa fa-linkedin fa-3x"></i></a>LinkedIn
+	        </li>
+	        <li>
+	          <a class="contact" href="http://www.github.com/ncabelin"><i class=
+	          "fa fa-github fa-3x"></i></a><span>Github</span>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
   </div>
- </div>
 </section>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="./js/model.js"></script>
 <script>
 	$(function() {
 		var header_name = $('.header_name, .profile_pic'),
@@ -135,8 +127,21 @@
 				.fadeOut(1000, skill);
 		}
 
-		$('body').fadeOut(10).fadeIn(2000);
+		// $('body').fadeOut(10).fadeIn(2000);
 		skill();
+
+		var content = ''
+		projects.forEach(function(x, i) {
+			if ((i+1) % 2 == 0) {
+				console.log('odd');
+				console.log(i);
+				content += '<div class="row"><div class="col-md-3"><img src="' + x.image +'" class="project_image center-block img-rounded" /></div><div class="col-md-9"><h3>' + x.title + '</h3>' + x.description + '</div><hr class="projects">';
+			} else {
+				content += '<div class="row"><div class="col-md-3 visible-xs visible-sm"><img src="' + x.image +'" class="project_image center-block img-rounded" /></div></div><div class="col-md-9"><h3>' + x.title + '</h3>' + x.description + '</div><div class="col-md-3"><img src="' + x.image +'" class="project_image center-block hidden-sm hidden-xs img-rounded" /></div></div><hr class="projects">';
+			}
+		});
+		$('#project_feat').append(content);
+		console.log(content);
 	});
 </script>
 
