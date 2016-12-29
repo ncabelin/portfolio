@@ -6,22 +6,22 @@
 		url: "http://plocator.mindwelder.com",
 		image: "https://cloud.githubusercontent.com/assets/15892944/18023119/f53124da-6ba9-11e6-9a4c-cf9feaf7de4c.png",
 		github: "https://github.com/ncabelin/psych-unit-locator-LA"
-	},{
-		title: "Mindwelder: Flashcard App",
-		id: "flashcards",
-		description: "Fullstack Flashcard App where users can sign up, log in and add their own flashcards and flashcard sets for self-testing. Ability to use Leitner method of learning incorporated.<br><br>Uses PHP 7.0, MySQL and jQuery, HTML5/CSS3.",
-		sub: ["(Full Stack Application) using", "PHP", "MySQL", "jQuery", "HTML5/CSS3", "Bootstrap", "List.JS"],
-		url: "http://cards.mindwelder.com",
-		image: "https://cloud.githubusercontent.com/assets/15892944/17835927/649610d8-6736-11e6-98b4-c2c1726b6f47.png",
-		github: "https://github.com/ncabelin/flashcards-mindwelder"
+	// },{
+	// 	title: "Mindwelder: Flashcard App",
+	// 	id: "flashcards",
+	// 	description: "Fullstack Flashcard App where users can sign up, log in and add their own flashcards and flashcard sets for self-testing. Ability to use Leitner method of learning incorporated.<br><br>Uses PHP 7.0, MySQL and jQuery, HTML5/CSS3.",
+	// 	sub: ["(Full Stack Application) using", "PHP", "MySQL", "jQuery", "HTML5/CSS3", "Bootstrap", "List.JS"],
+	// 	url: "http://cards.mindwelder.com",
+	// 	image: "https://cloud.githubusercontent.com/assets/15892944/17835927/649610d8-6736-11e6-98b4-c2c1726b6f47.png",
+	// 	github: "https://github.com/ncabelin/flashcards-mindwelder"
 	},{
 		title: "Mindwelder Blogs",
 		id: "blogs",
-		description: "Fullstack Blog Application with user registration and ability to post blogs with html formatting tags, upload imgur picture links, code lines in the pre tag, etc.",
-		sub: ["(Static Website) using", "Google App Engine", "Python", "Webapp2", "Google Datastore NoSQL"],
-		url: "https://blog.mindwelder.com",
-		image: "https://cloud.githubusercontent.com/assets/15892944/19257141/157089fc-8f22-11e6-8341-de99ded939b9.jpg",
-		github: "https://github.com/ncabelin/python-blog"
+		description: "Fullstack Blog Application with user registration and the ability to post blogs with formatting, upload imgur picture links, use html formatting. A unique feature is the Testing mode. Underline style a section and it will be designated as an answer for a fill-in-the-blank type question. Tests can be saved for continuation later on. The web app also uses Oauth2 from Google+ and Facebook.",
+		sub: ["Python", "Flask", "PostgreSQL", "jQuery", "DigitalOcean VPS"],
+		url: "https://www.mindwelder.com",
+		image: "https://cloud.githubusercontent.com/assets/15892944/21518633/bef3ef7a-cc9c-11e6-975b-a7fe145d21bb.jpg",
+		github: "https://github.com/ncabelin/mindwelder"
 	},{
 		title: "Progressive Steps, Inc.",
 		id: "progressive",
